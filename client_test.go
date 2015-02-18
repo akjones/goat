@@ -6,7 +6,7 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 )
 
-func TestGoatServer(t *testing.T) {
+func TestGoatClient(t *testing.T) {
 
 	Convey("Chat client", t, func() {
 
