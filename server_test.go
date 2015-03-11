@@ -27,7 +27,7 @@ func TestGoatServer(t *testing.T) {
 			b, _ := ioutil.ReadAll(resp.Body)
 
 			Convey("it returns the message content", func() {
-				So(string(b), ShouldEqual, "hello")
+				So(string(b), ShouldEqual, `"hello"`)
 			})
 		})
 
